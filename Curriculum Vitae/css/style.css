@@ -1,0 +1,53 @@
+*
+.P2{
+    text-align: center;
+    color: aliceblue;
+}
+
+.div-img{
+    text-align: center;
+}
+.img1{
+
+    width: 20%;
+}
+body{
+   background-color:darkgray;
+}
+.T1{
+    color: aliceblue;
+    text-align: center;
+}
+.B1{
+    color: aliceblue;
+}
+.I4{
+    color: aliceblue;
+}
+.I5{
+    width: 6%;
+}
+.T3{
+    text-align: justify;
+    color: aliceblue;
+}
+.L1{
+    color: aliceblue;
+}
+.P4{
+    color: aliceblue;
+}
+.M1{
+    color: aliceblue;
+}
+.M2{
+    color: aliceblue;
+}
+.M7{
+    color: aliceblue;
+}
+.table {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
