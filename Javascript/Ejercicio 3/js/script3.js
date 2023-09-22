@@ -22,14 +22,11 @@ calificación final en la materia de Algoritmos. Dicha
 calificación se compone de los siguientes porcentajes:
 a. 55% del promedio de sus tres calificaciones parciales.
 b. 30% de la calificación del examen final.
-c. 15% de la calificación de un trabajo final.
+c. 15% de la calificación de un trabajo final.*/
 
-let cal1 = prompt ("Ingrese la nota de su primera calificación.");
-let cal2 = prompt ("Ingrese la nota de su segunda calificación.");
-let cal3 = prompt ("Ingrese la nota de su tercera calificación.");
+let cal = prompt ("Ingrese el promedio de sus calificaciones.");
 let exf = prompt ("Ingrese la nota de su examen final");
 let trf = prompt ("Ingrese la nota de su trabajo final");
-let cal = parseInt(cal1+cal2+cal3)/3
 let porcal = 55/100;
 let porexf = 30/100;
 let portrf = 15/100;
@@ -37,7 +34,7 @@ let pcal = parseInt(cal*porcal);
 let pexf = parseInt(exf*porexf);
 let ptrf = parseInt(trf*portrf);
 let cf = parseInt(ptrf) + parseInt(pexf) + parseInt(pcal);
-alert ("Su calificación final es de "+cf);*/
+alert ("Su calificación final es de "+cf);
 
 /* Ejercicio 4 - El dueño de una tienda compra un artículo
 a un precio determinado. Obtener el precio en que lo debe
