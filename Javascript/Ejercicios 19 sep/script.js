@@ -109,17 +109,107 @@ switch (dia) {
 }
 */
 
-/* 7. En un almacén se hace un 20% de descuento a los clientes cuya compra
-supere los $1000 pesos. A los demás solo se les hace un 5% de descuento ¿Cuál
-será la cantidad que pagará una persona por su compra?
+/*7
+let compra = prompt("Ingresa el valor de tu compra: ");
 
-let cantidad_total = prompt("Ingrese el monto de la compra: ");
-cantidad_total = parseInt(cantidad_total);
-if (cantidad_total > 1000) {
-  let descuento = 0.2 * cantidad_total;
+compra = parseInt(compra);
+
+if (compra >= 1000) {
+
+  descuento = 0.2 * compra;
 } else {
-  let descuento = 0.05 * cantidad_total;
+
+  descuento = 0.05 * compra;
 }
-let total = parseInt (cantidad_total) - parseInt (descuento);
-alert("La cantidad a pagar es de: $" + total + " pesos.");
-*/
+
+total = compra - descuento;
+
+alert("El total a pagar es de " + total + " pesos.");*/
+/*8
+let horasTrabajadas = prompt("Ingresa las horas trabajadas: ");
+
+horasTrabajadas = parseInt(horasTrabajadas);
+
+if (horasTrabajadas <= 40) {
+
+  salario = horasTrabajadas * 16000;
+} else {
+
+  salario = 40 * 16000 + (horasTrabajadas - 40) * 20000;
+}
+
+alert("El salario semanal es de " + salario + " pesos.");*/
+/*9
+let nombre1 = prompt("Ingresa el nombre de la primera persona: ");
+let edad1 = prompt("Ingresa la edad de la primera persona: ");
+let nombre2 = prompt("Ingresa el nombre de la segunda persona: ");
+let edad2 = prompt("Ingresa la edad de la segunda persona: ");
+
+edad1 = parseInt(edad1);
+edad2 = parseInt(edad2);
+
+if (edad1 > edad2) {
+
+  alert("La persona con más edad es " + nombre1 + " con " + edad1 + " años.");
+} else {
+
+  alert("La persona con más edad es " + nombre2 + " con " + edad2 + " años.");
+}*/
+/*10
+let precio = prompt("Ingresa el precio de la camisa: ");
+let cantidad = prompt("Ingresa la cantidad de camisas compradas: ");
+
+precio = parseInt(precio);
+
+totalSinDescuento = cantidad * precio;
+
+if (cantidad >= 3) {
+
+  descuento = 0.2 * totalSinDescuento;
+} else {
+
+  descuento = 0.1 * totalSinDescuento;
+}
+
+total = totalSinDescuento - descuento;
+
+alert("El total a pagar es de " + total + " pesos.");*/
+
+/*11
+
+let numero1 = prompt("Ingresa el primer número: ");
+let numero2 = prompt("Ingresa el segundo número: ");
+
+numero1 = parseInt(numero1);
+numero2 = parseInt(numero2);
+
+if (numero1 == numero2) {
+
+  alert("Los números son iguales y su producto es " + numero1 * numero2);
+} else if (numero1 > numero2) {
+
+    alert("El primer número es mayor y su diferencia es " + numero1 - numero2);
+} else {
+
+    alert("El segundo número es mayor y su suma es " + numero1 + numero2);
+} */
+
+/*12. Realizar una calculadora con las operaciones bassicas
+
+let opcion = prompt("1. suma 2. resta 3. division 4. multiplcacion");
+let nume1 = prompt("digite el numero 1");
+let nume2 = prompt("digite el numero 2");
+
+if (opcion==1){
+    suma=parseInt(nume1)+parseInt(nume2);
+    alert(suma);
+} else if(opcion==2){
+    resta=parseInt(nume1)-parseInt(nume2);
+    alert(resta);
+} else if(opcion==3){
+    division=parseInt(nume1)/parseInt(nume2);
+    alert(division);
+} else {
+    multiplicacion=parseInt(nume1)*parseInt(nume2);
+    alert(multiplicacion);
+}*/
