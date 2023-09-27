@@ -1,4 +1,4 @@
-//Función para convertir unidades de longitud y mostrar el resultado en un alert
+/*Función para convertir unidades de longitud y mostrar el resultado en un alert
 function convertirLongitudYAlert(valor, unidadOrigen, unidadDestino) {
     const factoresConversion = {
         km: {
@@ -65,7 +65,7 @@ function convertirLongitudYAlert(valor, unidadOrigen, unidadDestino) {
     }
 
     const factor = factoresConversion[unidadOrigen][unidadDestino];
-    const resultado = valor * factor;
+    const resultado = parseInt (valor) * parseInt (factor);
 
     alert(`${valor} ${unidadOrigen} es igual a ${resultado.toFixed(2)} ${unidadDestino}`);
 }
@@ -76,3 +76,4 @@ const unidadOrigen = prompt("Seleccione la unidad de origen (km, hm, dam, m, dm,
 const unidadDestino = prompt("Seleccione la unidad de destino (km, hm, dam, m, dm, cm, mm):");
 
 convertirLongitudYAlert(valor, unidadOrigen, unidadDestino)
+*/
