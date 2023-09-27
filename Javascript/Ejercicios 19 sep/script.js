@@ -64,8 +64,8 @@ var B = prompt ("ingrese un numero:");
 	B. Si el peso es entre 41 y 70 kilogramos. Muestre el mensaje persona peso promedio.
 	C. Si el peso es mayor a 71 kilogramos. Muestre el mensaje persona con sobre peso.
 
-let peso = prompt("Ingrese el peso de la persona: ");
-if (peso <= 40) {
+  if (peso <= 40) {
+  let peso = prompt("Ingrese el peso de la persona: ");
   alert("Persona baja de peso.");
 } else if (peso >= 41 && peso <= 70) {
   alert("Persona peso promedio.");
@@ -213,3 +213,53 @@ if (opcion==1){
     multiplicacion=parseInt(nume1)*parseInt(nume2);
     alert(multiplicacion);
 }*/
+
+/*17.
+*/
+
+/*18. Escriba un programa que imprima "Es un número menor que 10." si el
+número ingresado es menor que 10, "Es un número entre 10 y 20.", si el número ingresado está entre 10 y 20, y "Es un número
+mayor que 20" si el número ingresado es mayor que 20.
+
+let num=parseFloat(prompt("Ingrese un número."))
+
+if (num<10){
+  alert("Es un número menor que 10.");
+}
+else if (num>10 && num<20){
+  alert("Es un número entre 10 y 20.");
+}
+else{
+  alert("Es un número mayor que 20.");
+}
+*/
+
+/*19. Diseñe un programa que solicite el nombre de un usuario y su contraseña,
+si el nombre es "ADMIN", y la contraseña es "12345" muestra un mensaje de "Acceso
+concedido.", de lo contrario, muestre un mensaje de "Acceso denegado"
+
+let usuario=prompt("Ingrese usuario.")
+let contraseña=parseInt(prompt("Ingrese contraseña."))
+
+if (usuario=="ADMIN"){
+                    if (contraseña=="12345"){
+                    alert("Acceso concedido.");
+                    }else{
+                    alert("Contraseña incorrecta.");
+}
+}else{
+  alert("Usuario no encontrado.");
+}
+*/
+
+/*20. Realizar un programa que pida genero y edad, y si es hombre y es mayor de
+18, que mande un mensaje que diga "Es elegible para el servicio militar"
+
+let genero=prompt("Ingrese su genero solamente ingresando las letras M o F en mayúscula.")
+let edad=parseInt(prompt("Ingrese su edad."))
+
+if (edad>=18 && genero=="M") {
+  alert("Es elegible para el servicio militar.")}
+else
+  alert ("No es elegible para el servicio militar.")
+*/
